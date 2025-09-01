@@ -10,6 +10,8 @@ def View():
 def change():
     return "ddd"
 
-
+@app.get("/")
+def root():
+    return "ok"
 
 
